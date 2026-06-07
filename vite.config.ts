@@ -10,5 +10,5 @@ export default defineConfig({
     }
   },
   // 替换成你的 GitHub 仓库名，例如 /lili-workspace/
-  base: '/lili-workspace/'
+  base: '/developer-growth-os/'
 })
