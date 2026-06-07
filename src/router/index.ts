@@ -6,7 +6,7 @@ import IdeasView from '@/views/IdeasView.vue'
 
 const router = createRouter({
   // Hash history works with GitHub Pages without server config
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     { path: '/',           component: WorkspaceView },
     { path: '/projects',   component: ProjectsView  },
